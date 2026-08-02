@@ -1,5 +1,6 @@
 import React, { useState, useRef, useMemo } from "react";
 import { Music2, Pause, Gift } from "lucide-react";
+import song from "./assets/PUBLIC - Make You Mine (Put Your Hand in Mine).mp3";
 
 /* ============================================================
    PERSONALIZE:
@@ -410,7 +411,7 @@ export default function App() {
         {playing ? "Pause music" : "Play music"}
       </button>
       {/* Replace src below with your own song file to enable music */}
-      <audio ref={audioRef} loop src="" />
+      <audio ref={audioRef} loop src="song" />
 
       <section className="section">
         <div className="content">
