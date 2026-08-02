@@ -423,7 +423,7 @@ export default function App() {
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-          <div className="name-hint">(yahan type karo, upar wala naam khud badal jayega)</div>
+          <div className="name-hint"></div>
           <h1 className="hero-name">{name.trim() || "Happy Birthdayy babyyy"}</h1>
           <p className="hero-sub">Today belongs to you.🌸
  ✨</p>
