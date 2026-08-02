@@ -1,6 +1,6 @@
 import React, { useState, useRef, useMemo } from "react";
 import { Music2, Pause, Gift } from "lucide-react";
-import song from "./assets/PUBLIC - Make You Mine (Put Your Hand in Mine)[Official Video].mp3";
+import song from "./assets/song.mp3";
 
 /* ============================================================
    PERSONALIZE:
