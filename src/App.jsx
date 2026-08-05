@@ -411,7 +411,7 @@ export default function App() {
         {playing ? "Pause music" : "Play music"}
       </button>
       {/* Replace src below with your own song file to enable music */}
-      <audio ref={audioRef} loop src="song" />
+      <audio ref={audioRef} loop src={song} />
 
       <section className="section">
         <div className="content">
